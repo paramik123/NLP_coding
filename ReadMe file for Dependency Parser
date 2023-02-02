@@ -1,0 +1,9 @@
+A Fast and Accurate Dependency Parser using Neural Networks
+
+Current dependency parsers cannot always classify based on millions of sparse indicator features. The paper proposes a novel way of learning a neural network classifier for use in greedy, transition based dependency parser. 
+This paper addresses all the problems by using dense features in  place of the sparse indicator features. A neural network classifier is trained to make parsing decisions within a transition based dependency parser. The neural network learns compact dense vector representation of words , POS tags, and dependency labels. 
+The major contributions of this work include:
+1.	Showing the usefulness of dense representations that are learnt within the parsing task
+2.	Developing a neural network architecture that gives good accuracy and speed
+3.	Introducing a novel activation function for the neural network that better captures higher order interaction features.
+Experimental results show that the parser outperforms other greedy parsers using sparse indicator features in both accuracy and speed. The model is also able to learn the most useful feature conjunctions for making predictions. 
